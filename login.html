@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img id="img" ; src="images/img.png" alt="Bootstrap" width="54" height="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" >Login</a> 
+              </li>
+                
+              <li class="nav-item ">
+                <a class="nav-link " href="signup.html">Sign Up</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="district.html">District</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  
+      
+          <div class="container">
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <form id="form1">
+                    <h4 id="head4" class="text-center">LOGIN</h4>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control custom-input" id="email" name="email" placeholder="Enter your email address">
+                                <p id="emailError" style="color: red;"></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="Password" class="form-label">Password</label>
+                                <input type="password" class="form-control custom-input" id="Password" name="password" placeholder="Enter your password">
+                                <p id="passwordError" style="color: red;"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <span style="color: bisque;">
+                        <p>Do you have an account?</p>
+                    </span>
+                    <div class="text-center">
+                        <a href="signup.html" id="form3">Sign up</a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" id="btn1" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        
+           </section>
+        <form>
+          <footer id="foot1" class="bg text-light py-4">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>Email: keralatourism@gmail.com</p>
+                    <p>Phone: +91-6235359404</p>
+                </div>
+              </div>
+              <hr>
+              <p class="text-center">&copy; 2023 Kerala Tourism Website. All rights reserved.</p>
+      </div>
+          
+        </div>
+              
+         
+          
+        <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>      
+</body>
+</html>

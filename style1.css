@@ -1,0 +1,60 @@
+body{
+    background-image: url(images/img9.jpeg);
+    background-size: cover;
+    font-size: 16px;
+}
+ 
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+.navbar{
+    height: 50px;
+    
+}
+  .navbar a {
+    color: #76b674;
+    margin-block-end: -8px;
+    margin-block-start: -11px;
+}
+form{
+    align-items: center;
+   /* height: 35px;*/
+} 
+#form1{
+    /*width:10cm;
+    align-items: center;*/
+    color: rgb(242, 255, 249);
+   
+}
+form a{
+    
+    color: aliceblue;
+}
+.form-label{
+    color: bisque;
+    /*width: 10cm;*/
+}
+.row{
+    width:10cm;
+}
+
+#btn1{
+    /*margin-left: 2.4cm;
+    margin-block-start:8px;*/
+    color: black;
+    background-color: rgb(212, 164, 152);
+    border-color: rgb(212, 164, 152) ;
+    
+    
+}
+#head4{
+    text-align: center;
+    color: rgb(212, 164, 152);
+    
+    
+}
+#foot1{
+    margin-block-start: 5cm;
+}

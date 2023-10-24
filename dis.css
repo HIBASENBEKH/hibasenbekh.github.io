@@ -1,0 +1,30 @@
+
+.navbar{
+    height: 50px;
+    
+}
+  .navbar a {
+    color: #76b674;
+    margin-block-end: -8px;
+    margin-block-start: -11px;
+}
+.btn1{
+  color: #141414;
+  background-color: rgb(252, 252, 252);
+  border-color: rgb(0, 0, 0);
+ 
+  
+}
+
+.box{
+  background-color: #a1ca99; 
+}
+.card-body{
+  background-color: rgb(214, 216, 192);
+}
+btn btn-custom{
+  background-color: #287c25;
+}
+#foot1{
+  margin-block-start: 8cm;
+}

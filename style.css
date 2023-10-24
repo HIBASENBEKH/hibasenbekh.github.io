@@ -1,0 +1,56 @@
+
+
+body {
+
+        background-image: url(images/img1.jpeg);
+        background-size: cover;
+        font-size: 16px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  .btn btn-primary{
+    margin-left: 12cm;
+    margin-block-start:20px;
+   
+    
+  }
+.navbar{
+    height: 50px;
+    
+}
+  .navbar a {
+    color: #76b674;
+    margin-block-end: -8px;
+    margin-block-start: -11px;
+}
+form{
+    height: 35px;
+} 
+#btn1{
+    color: rgb(240, 231, 231);
+    background-color: rgb(5, 56, 27);
+    border-color:  rgb(5, 56, 27) ;
+  
+}
+#head2{
+    text-align: center;
+    color: rgb(36, 54, 26);
+    margin-block-start: ;
+
+}
+#head1{
+    text-align: center;
+    color: rgb(36, 54, 26);
+    margin-block-start: 6cm;
+
+    
+}
+#foot1{
+    margin-block-start:10cm;
+}
+

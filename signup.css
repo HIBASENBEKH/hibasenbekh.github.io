@@ -1,0 +1,64 @@
+body{
+    background-image: url(images/Blue\,_Green_&_White.jpg);
+    background-size: cover;
+    
+    
+}
+navbar{
+    height: 50px;
+    
+}
+  .navbar a {
+    color: #76b674;
+    margin-block-end: -8px;
+    margin-block-start: -11px;
+}
+
+#form1{
+    
+
+    color: rgb(242, 255, 249);
+}
+form a{
+    /*margin-left: 0.8cm;*/
+    color: rgb(10, 27, 218);
+    
+}
+#btn1{
+    align-items: center;
+    /*width: 5cm;*/
+    color: #f5fbff;
+    background-color: #173a4e;
+    border-color: #173a4e;
+   /* margin-block-start:8px;
+    margin-block-end: 10px;*/
+    }
+    .row{
+        width:12cm;
+    }
+
+#head4{
+   text-align: right;
+    color: #173a4e;
+    }
+    .form-label{
+
+        color: rgb(14, 13, 12);
+    }
+
+#para1{
+    color:rgb(19, 17, 17) ;
+    margin-left:0cm ; 
+}
+#foot1{
+    margin-block-start: 7cm;
+}
+.password-weak {
+    color: red;
+}
+.password-medium {
+    color: orange;
+}
+.password-strong {
+    color: green;
+}

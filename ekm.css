@@ -1,0 +1,41 @@
+#head3{
+    text-align: center;
+    color:rgb(174, 174, 199);
+    margin-block-start: 1cm;
+
+}
+.box{
+background-color: rgb(40, 82, 71);
+}
+
+#head2{
+    color: rgb(131, 102, 68);
+}
+.navbar{
+    height: 50px;
+    
+}
+  .navbar a {
+    color: #76b674;
+    margin-block-end: -8px;
+    margin-block-start: -11px;
+}
+form{
+    height: 35px;
+
+} 
+#para1{
+    color: white;
+    
+    
+}
+#hr1{
+    color: bisque;
+}
+#img1{
+    margin-left: 13cm;
+}
+
+.card-body{
+    background-color:rgb(149, 173, 169);
+}

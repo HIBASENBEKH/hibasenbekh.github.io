@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+            <div class="container">
+              <a class="navbar-brand" href="#"> <img id="img" ; src="images/img.png" alt="Bootstrap" width="54" height="40"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html" >Login</a> 
+                  </li>
+                    
+                  <li class="nav-item ">
+                    <a class="nav-link " href="signup.html">Sign Up</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="district.html">District</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+    <section id="signup-section">
+        <div class="container mt-5">
+            <h4 id="head4" class="text-center">SIGN UP</h4>
+            <div class="d-flex justify-content-center align-items-center">
+            <form id="form1">
+                <div class="row mt-1">
+                    <div class="col-md-6">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="col-12">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
+                        <p id="phoneError" style="color: red;"></p>
+                        </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address">
+                        <p id="emailError" style="color: red;"></p>
+                    </div>
+                    <div class="col-12">
+                        <label for="confirm-email" class="form-label">Confirm Email Address</label>
+                        <input type="email" class="form-control" id="confirm-email" placeholder="Confirm Email Address">
+                        <p id="confirmEmailError" style="color: red;"></p>
+                    </div>
+                    <div class="col-12">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <p id="passwordError" style="color: red;"></p>
+                        <div id="passwordStrength" class="password-strength"></div>
+                    </div>
+                    <div class="col-12">
+                        <label for="confirm-password" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                        <p id="confirmPasswordError" style="color: red;"></p>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
+                        </div>
+                    </div>
+                    
+        <p id="para1" class="text-center">Already have an account?</p>
+            <div class="text-center"><a href="login.html">Login</a></div>
+                
+            </div>
+            <div class="col">
+                <button type="submit" id="btn1" class="btn btn-primary btn-block">SIGN UP</button>
+            </div>
+        </div>
+    </form>
+    
+</div>
+        </div>
+    </section>
+    
+    <footer id="foot1" class="bg text-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>Email: keralatourism@gmail.com</p>
+                    <p>Phone: +91-6235359404</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2023 Kerala Tourism Website. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="signup.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>      
+</body>
+</html>
