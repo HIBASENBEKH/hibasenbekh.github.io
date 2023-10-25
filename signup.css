@@ -52,6 +52,7 @@ form a{
 }
 #foot1{
     margin-block-start: 7cm;
+    color: white;
 }
 .password-weak {
     color: red;
